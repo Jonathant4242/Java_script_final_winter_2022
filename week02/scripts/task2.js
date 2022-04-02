@@ -28,30 +28,30 @@ document.querySelector("img").setAttribute("src", myPicture)
 /* ARRAYS */
 
 // Step 1: declare and instantiate an array variable to hold your favorite foods
-const favoriteFood = ["Empanda", "Spaghetti", "Pizza"];
+const Food = ["Empanada", "Spaghetti", "Pizza"];
 
 // Step 2: place the values of the favorite foods variable into the HTML file
-document.querySelector("#food").textContent = fovoriteFood;
+document.querySelector("#food").textContent = Food;
 
 // Step 3: declare and instantiate a variable to hold another favorite food
-const anotherFovoriteFood = "Ice Cream";
+const anotherFavoriteFood = "Ice Cream";
 
 // Step 4: add the variable holding another favorite food to the favorite food array
-favoriteFoods.push(anotherFovoriteFood);
+Food.push(anotherFavoriteFood);
 
 // Step 5: repeat Step 2
-document.querySelector("#food").textContent = favoriteFood;
+document.querySelector("#food").textContent = Food;
 
 // Step 6: remove the first element in the favorite foods array
-favoriteFoods.shift();
+Food.shift();
 
 // Step 7: repeat Step 2
-document.querySelector("#food").textContent = favoriteFood;
+document.querySelector("#food").textContent = Food;
 
 // Step 8: remove the last element in the favorite foods array
 favoriteFoods.pop();
 
 // Step 7: repeat Step 2
-document.querySelector("#food").textContent = favoriteFoods;
+document.querySelector("#food").textContent = Food;
 
 
