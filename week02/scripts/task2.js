@@ -1,5 +1,5 @@
 /* Lesson 2 */
-
+import{aboutMe} from "./images/About.js"
 /* VARIABLES */
 
 // Step 1: declare and instantiate a variable to hold your name
@@ -49,9 +49,12 @@ Food.shift();
 document.querySelector("#food").textContent = Food;
 
 // Step 8: remove the last element in the favorite foods array
-favoriteFoods.pop();
+Food.pop();
 
 // Step 7: repeat Step 2
 document.querySelector("#food").textContent = Food;
+
+document.querySelector("#summary").textContent = Summary;
+const Summary = aboutMe.import.about
 
 
